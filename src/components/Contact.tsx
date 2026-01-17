@@ -20,7 +20,7 @@ const Contact = () => {
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
 
-  const phoneNumber = "+212617266691";
+  const phoneNumber = "+212611726691";
   const email = "achrafelhallaji@gmail.com";
   const whatsappMessage = encodeURIComponent("Bonjour Achraf, je souhaite discuter d'un projet d'architecture d'intérieur.");
 
@@ -73,7 +73,7 @@ const Contact = () => {
     {
       icon: Phone,
       label: "Téléphone",
-      value: "+212 6 17 26 66 91",
+      value: "+212 6 11 72 66 91",
       href: `tel:${phoneNumber}`,
     },
     {
